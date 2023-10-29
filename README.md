@@ -9,4 +9,6 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 2. 'VNET.tf' define uma Virtual Network
 3. 'subnets.tf' define duas Subnets usando o RG e a VNet criadas anteriormente
 4. 'subnets-variables.tf' define as variáveis para criação das Subnets, boa prática quando se tem muitas variáveis
-5. 
+5. 'avset.tf' define Conjuntos de Disponibilidade
+6. 
+

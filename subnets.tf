@@ -12,19 +12,6 @@ provider "azurerm" {
   skip_provider_registration = true             //ajeitou o bug do 'terraform plan'
 }
 
-
-
-variable "RGName" {                         // interpolação
-  type = string                                             //variável do nome do resource group já criado, pra indicar na criação das subnets
-  default = "ResourceGroup-1"
-}
-
-variable "VNetName" {
-    type = string
-    default = "virtualNetwork-1"                            //variável do nome da VNet já criada, pra indicar na criação das subnets
-}
-
-
 resource "azurerm_subnet" "subnet1" {
   name                 = "Prod"
   resource_group_name  = var.RGName                       //campos onde a indicação do nome vai; <a variável . o nome da variável>

@@ -11,5 +11,6 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 3. 'subnets.tf' define duas Subnets usando o RG e a VNet criadas anteriormente
 4. 'subnets-variables.tf' define as variáveis para criação das Subnets, boa prática quando se tem muitas variáveis
 5. 'avset.tf' define Conjuntos de Disponibilidade
-6. 
+6. 'subnets.tf' possui um bloco a respeito de armazenar os arquivos que são .tfstate numa Conta de Armazenamento; em um container especifico
+7. 
 

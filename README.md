@@ -1,7 +1,7 @@
 # Terraform no Azure
 Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 
-**Documentação usada: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs**
+**📃 Documentação usada: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs**
 
 1. 'resourceGroup.tf' define um Resource Group
 2. 'VNET.tf' define uma Virtual Network

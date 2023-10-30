@@ -14,5 +14,5 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 5. 'avset.tf' define Conjuntos de Disponibilidade
 6. 'subnets.tf' possui um bloco a respeito de armazenar os arquivos que são .tfstate numa Conta de Armazenamento; em um container especifico
 7. 'output.tf' define dois Outputs das subnets criadas
-8. 'nic.tf' define a Interface de Rede (network interface) usando as saídas (outputs) das subnets criadas anteriormente
+8. 'NIC.tf' define a Interface de Rede (network interface) usando as saídas (outputs) das subnets criadas anteriormente
 9. 'VM.tf' define a criação da Virtual Machine 

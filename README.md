@@ -1,5 +1,6 @@
-# Terraform no Azure
-Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
+# Estudos de Terraform 
+
+## Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 
 **📃 Docs:**
   + https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
@@ -17,6 +18,8 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 7. 'output.tf' define dois Outputs das subnets criadas
 8. 'NIC.tf' define a Interface de Rede (network interface) usando as saídas (outputs) das subnets criadas anteriormente
 9. 'VM.tf' define a criação da Virtual Machine 
+
+## Estudos sobre Infrastructure as Code (IaC) com Terraform 
 
 **📂 2º Terraform Tutorial for Beginners | KodeKloud**
 

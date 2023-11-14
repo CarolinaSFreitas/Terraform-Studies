@@ -18,4 +18,4 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 8. 'NIC.tf' define a Interface de Rede (network interface) usando as saídas (outputs) das subnets criadas anteriormente
 9. 'VM.tf' define a criação da Virtual Machine 
 
-**2º Curso - Alura | Terraform Automatize a infraestrutura na nuvem**
+**2º Terraform Tutorial for Beginners - KodeKloud | Terraform Tutorial for Beginners + Labs

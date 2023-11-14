@@ -5,6 +5,7 @@
   + https://developer.hashicorp.com/terraform/language/values/locals
   + https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
   + https://developer.hashicorp.com/terraform/language/state/remote-state-data
+  + https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/sensitive_file
 
 ## Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 

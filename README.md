@@ -36,3 +36,4 @@
   + Workflow básico/inicial:
   ![workflow-basico](image-3.png)
 
+  + `` terraform show `` lista os resources criados com o Terraform

@@ -1,12 +1,12 @@
 # Estudos de Terraform 
 
-## Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
-
 **📃 Docs:**
   + https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
   + https://developer.hashicorp.com/terraform/language/values/locals
   + https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
   + https://developer.hashicorp.com/terraform/language/state/remote-state-data
+
+## Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 
 **📂 1º Terraform on Azure | Udemy**
 1. 'resourceGroup.tf' define um Resource Group

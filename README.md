@@ -7,6 +7,7 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
   + https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
   + https://developer.hashicorp.com/terraform/language/state/remote-state-data
 
+**1º Curso - Udemy**
 1. 'resourceGroup.tf' define um Resource Group
 2. 'VNET.tf' define uma Virtual Network
 3. 'subnets.tf' define duas Subnets usando o RG e a VNet criadas anteriormente
@@ -16,3 +17,5 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 7. 'output.tf' define dois Outputs das subnets criadas
 8. 'NIC.tf' define a Interface de Rede (network interface) usando as saídas (outputs) das subnets criadas anteriormente
 9. 'VM.tf' define a criação da Virtual Machine 
+
+**2º Curso - Alura | Terraform Automatize a infraestrutura na nuvem**

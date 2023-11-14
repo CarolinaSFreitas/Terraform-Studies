@@ -29,3 +29,7 @@ Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
   + Exemplo de bloco com Terraform criando um bucket do S3 pra AWS:
   ![aws_s3-bucket_creation_block](image-2.png)
 
+  + Workflow básico/inicial:
+  ![workflow-basico](image-3.png)
+
+  

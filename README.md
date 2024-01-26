@@ -39,7 +39,9 @@
 
   + `` terraform show `` lista os resources criados com o Terraform
 
-## Apache Web Server on Azure
+## Estudos sobre Infrastructure as Code (IaC) com Terraform provisionando um server Apache no Azure
+
+**📂 3º Artigo sobre provisionamento de Apache através do Terraform no Azure | Jorge**
 
 <img width="348" alt="image" src="https://github.com/CarolinaSFreitas/Terraform-Studies/assets/99994934/dd90ad28-10fc-45e4-827b-54e41f73679f">
 

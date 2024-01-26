@@ -6,6 +6,7 @@
   + https://developer.hashicorp.com/terraform/language/settings/backends/azurerm
   + https://developer.hashicorp.com/terraform/language/state/remote-state-data
   + https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/sensitive_file
+  + https://medium.com/@jorge.gongora2610/how-to-set-up-an-apache-web-server-on-azure-using-terraform-f7498daa9d66
 
 ## Estudos sobre Infrastructure as Code (IaC) com Terraform no Azure
 
@@ -37,3 +38,8 @@
   ![workflow-basico](image-3.png)
 
   + `` terraform show `` lista os resources criados com o Terraform
+
+## Apache Web Server on Azure
+
+<img width="348" alt="image" src="https://github.com/CarolinaSFreitas/Terraform-Studies/assets/99994934/dd90ad28-10fc-45e4-827b-54e41f73679f">
+

@@ -43,3 +43,4 @@
 
 <img width="348" alt="image" src="https://github.com/CarolinaSFreitas/Terraform-Studies/assets/99994934/dd90ad28-10fc-45e4-827b-54e41f73679f">
 
+- Testar o OpenSSL 

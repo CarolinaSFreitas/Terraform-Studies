@@ -26,16 +26,16 @@
 **📂 2º Terraform Tutorial for Beginners | KodeKloud**
 
   + Exemplo de bloco com explicação:
-  ![block_example](image.png)
+  ![block_example](./images/image.png)
 
   + Exemplo de bloco com Terraform criando uma instância EC2 pra AWS:
-  ![aws_ec2-creation_block](image-1.png)
+  ![aws_ec2-creation_block](./images/image-1.png)
 
   + Exemplo de bloco com Terraform criando um bucket do S3 pra AWS:
-  ![aws_s3-bucket_creation_block](image-2.png)
+  ![aws_s3-bucket_creation_block](./images/image-2.png)
 
   + Workflow básico/inicial:
-  ![workflow-basico](image-3.png)
+  ![workflow-basico](./images/image-3.png)
 
   + `` terraform show `` lista os resources criados com o Terraform
 
@@ -46,3 +46,38 @@
 <img width="530" alt="image" src="https://github.com/CarolinaSFreitas/Terraform-Studies/assets/99994934/dd90ad28-10fc-45e4-827b-54e41f73679f">
 
 - Testar o OpenSSL 
+
+## Criando Infra na AWS com Terraform (IaC)
+
+**📂 4º Infra na AWS com Terraform - Fernanda Kipper | YouTube**
+
+
+## Estudos através da Doc
+
+**📂 5º Estudos através da Documentação do Terraform**
+
+### Quick Start
+[Quick Start](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli#quick-start-tutorial)
+
+[main.tf](./5º Documentação/learn-terraform-docker-container/main.tf)
+
+Initialize the project, which downloads a plugin called a provider that lets Terraform interact with Docker.
+
+``$ terraform init``
+
+Provision the NGINX server container with apply. When Terraform asks you to confirm type yes and press ENTER.
+
+``$ terraform apply``
+
+Verify the existence of the NGINX container by visiting localhost:8000 in your web browser or running docker ps to see the container.
+
+  ![workflow-basico](./images/image-4.png)
+
+To stop the container, run terraform destroy.
+
+``$ terraform destroy``
+
+### Get Started - AWS
+
+[Get Started - AWS](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
+

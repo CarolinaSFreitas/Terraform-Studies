@@ -226,4 +226,7 @@ instance_public_ip = "54.186.202.254"
 
 You can use Terraform outputs to connect your Terraform projects with other parts of your infrastructure, or with other Terraform projects. To learn more, follow our in-depth tutorial, [Output Data from Terraform.](https://developer.hashicorp.com/terraform/tutorials/configuration-language/outputs)
 
-# 
+# Simular IAM Policies - Terraform creations
+
+After following the [IAM policies tutorial - Terraform](https://developer.hashicorp.com/terraform/tutorials/aws/aws-iam-policy) we can test using [IAM Policy Simulator](https://policysim.aws.amazon.com/home/index.jsp)
+

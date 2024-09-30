@@ -17,6 +17,9 @@ terraform.rc
 # Ignore Terraform state files
 *.tfstate
 *.tfstate.*
+*.tfplan
+*.tfout
+*.out
 
 # Ignore log files
 crash.log

@@ -24,7 +24,8 @@ resource "azurerm_network_security_group" "nsg" {
   name                = "nsg-terraform-udemy"
   location            = azurerm_resource_group.rsource_group.location
   resource_group_name = azurerm_resource_group.rsource_group.name
-  security_rule = {
+
+  security_rule {
     name                       = "Allow-SSH"
     priority                   = 100
     direction                  = "Inbound"
@@ -35,10 +36,6 @@ resource "azurerm_network_security_group" "nsg" {
     source_address_prefix      = "*"
     destination_address_prefix = "*"
   }
-  tags = local.common_tags
-}
 
-resource "azurerm_subnet_network_security_group_association" "snsga" {
-  subnet_id                 = azurerm_subnet.subnet.id
-  network_security_group_id = azurerm_network_security_group.nsg.id
+  tags = local.common_tags
 }

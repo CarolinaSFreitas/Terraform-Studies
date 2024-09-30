@@ -3,7 +3,7 @@ output "subnet-id" {
   value       = aws_subnet.subnet.id
 }
 
-output "subnet-cidr" {
-  description = "Valor do CIDR da subnet"
-  value       = aws_subnet.subnet.cidr_block
+output "security-group-id" {
+  description = "Valor do ID do security group"
+  value       = aws_security_group.security_group.id
 }

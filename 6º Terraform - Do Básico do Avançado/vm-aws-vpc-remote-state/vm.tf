@@ -17,3 +17,4 @@ resource "aws_instance" "vm" {
     managed_by = "terraform"
   }
 }
+ 

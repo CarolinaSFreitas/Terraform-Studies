@@ -230,3 +230,6 @@ You can use Terraform outputs to connect your Terraform projects with other part
 
 After following the [IAM policies tutorial - Terraform](https://developer.hashicorp.com/terraform/tutorials/aws/aws-iam-policy) we can test using [IAM Policy Simulator](https://policysim.aws.amazon.com/home/index.jsp)
 
+## Estudos sobre Terraform através da Udemy
+
+**📂 6º Terraform - Do Básico ao Avançado | Udemy**

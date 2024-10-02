@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "bucket_1" {
+resource "aws_s3_bucket" "bucket_um" {
   bucket = "carolf-comandos-terraform-1"
 }
 

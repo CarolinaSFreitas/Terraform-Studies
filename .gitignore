@@ -13,6 +13,7 @@
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.terraform
 
 # Ignore Terraform state files
 *.tfstate

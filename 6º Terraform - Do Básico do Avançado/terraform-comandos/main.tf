@@ -9,9 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bucket-terraform-remote-state"
-    key    = "commands/terraform.tfstate"
-    region = "us-east-1"
+    
   }
 }
 

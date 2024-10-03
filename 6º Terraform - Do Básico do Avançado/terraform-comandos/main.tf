@@ -8,13 +8,13 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "bucket-terraform-remote-state"
-    key    = "commands-dev/terraform.tfstate"
-    region = "us-east-1"
+  backend "azurerm" {
+    resource_group_name = "rg-terraform-remote-state"
+    storage_account_name      = "sacarolremotestate"
+    container_name            = "remote-state"
+    key                       = "commands/terraform.tfstate"
   }
 }
-
 
 provider "aws" {
   region = "us-east-1"

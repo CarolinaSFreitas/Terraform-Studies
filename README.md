@@ -233,3 +233,6 @@ After following the [IAM policies tutorial - Terraform](https://developer.hashic
 ## Estudos sobre Terraform através da Udemy
 
 **📂 6º Terraform - Do Básico ao Avançado | Udemy**
+
+- SAS Token: token de acesso temporário que permite acesso a um recurso específico em um armazenamento de blob
+ - ``az storage blob upload -f teste.jpg --blob-url 'https://caroldatasource.blob.core.windows.net/imagens/teste.jpg?sv=<resto do token>'``

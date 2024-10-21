@@ -5,7 +5,6 @@ trigger:
 - main
 variables: 
   - group: AWS-Credentials
-  - group: Azure-Credentials
   - group: Public-Keys
 
 stages:
@@ -23,12 +22,7 @@ stages:
       env:
         AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
         AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
-        ARM_CLIENT_ID: $(ARM_CLIENT_ID)
-        ARM_TENANT_ID: $(ARM_TENANT_ID)
-        ARM_SUBSCRIPTION_ID: $(ARM_SUBSCRIPTION_ID)
-        ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
         TF_VAR_aws_key_pub: $(TF_VAR_aws_key_pub)
-        TF_VAR_azure_key_pub: $(TF_VAR_azure_key_pub)
     - publish: $(Build.SourcesDirectory)/plan.out
       artifact: plan
       displayName: 'Publish Plan'
@@ -56,12 +50,7 @@ stages:
       env:
         AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
         AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
-        ARM_CLIENT_ID: $(ARM_CLIENT_ID)
-        ARM_TENANT_ID: $(ARM_TENANT_ID)
-        ARM_SUBSCRIPTION_ID: $(ARM_SUBSCRIPTION_ID)
-        ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
         TF_VAR_aws_key_pub: $(TF_VAR_aws_key_pub)
-        TF_VAR_azure_key_pub: $(TF_VAR_azure_key_pub)
 
 - stage: destroy
   displayName: Destroy - Terraform
@@ -83,9 +72,4 @@ stages:
       env:
         AWS_ACCESS_KEY_ID: $(AWS_ACCESS_KEY_ID)
         AWS_SECRET_ACCESS_KEY: $(AWS_SECRET_ACCESS_KEY)
-        ARM_CLIENT_ID: $(ARM_CLIENT_ID)
-        ARM_TENANT_ID: $(ARM_TENANT_ID)
-        ARM_SUBSCRIPTION_ID: $(ARM_SUBSCRIPTION_ID)
-        ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
         TF_VAR_aws_key_pub: $(TF_VAR_aws_key_pub)
-        TF_VAR_azure_key_pub: $(TF_VAR_azure_key_pub)

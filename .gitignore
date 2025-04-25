@@ -21,7 +21,6 @@ terraform.rc
 *.tfplan
 *.tfout
 *.out
-.terraform.lock.hcl
 
 # Ignore log files
 crash.log

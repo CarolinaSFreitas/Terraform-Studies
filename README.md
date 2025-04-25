@@ -240,3 +240,10 @@ After following the [IAM policies tutorial - Terraform](https://developer.hashic
 ## Estudos sobre Terraform através da LinuxTips
 
  **📂 7º Descomplicando o Terraform | LinuxTips**
+``terraform init -upgrade`` inicia e atualiza plugins
+``terraform plan -out meu-plano``
+``terraform plan -destroy -out destruir`` cria o plano de destruição e depois é possível aplicar
+``terraform apply "destruir" | terraform apply "meu-plano"`` aplica os planos (criação ou destruição da infra)
+
+ Autenticação AWS
+![alt text](./images/image-5.png)

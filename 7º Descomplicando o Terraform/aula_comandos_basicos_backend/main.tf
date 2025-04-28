@@ -23,3 +23,13 @@ resource "aws_subnet" "default" {
     Name = "Default Subnet"
   }
 }
+
+resource "aws_instance" "web" {
+  ami       = data.aws_ami.ubuntu.id
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "HelloWorld"
+    Env = "Development"
+  }
+}

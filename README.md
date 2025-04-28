@@ -250,3 +250,4 @@ After following the [IAM policies tutorial - Terraform](https://developer.hashic
 ![alt text](./images/image-5.png)
 
 - Gerador de .gitignore: https://www.toptal.com/developers/gitignore
+- https://developer.hashicorp.com/terraform/language/expressions/types 
